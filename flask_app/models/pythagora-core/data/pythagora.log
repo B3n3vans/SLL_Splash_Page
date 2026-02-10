@@ -1,0 +1,393 @@
+2025-10-28T19:40:13.917Z INFO SharedStateManager initialized
+2025-10-28T19:40:13.918Z INFO Is remote: false
+2025-10-28T19:40:13.918Z INFO Starting Local. Installation path: c:\Users\b3n3v\New folder\Student_Loan_Lottery\StudentLoanLottery\StudentLoanLotto\flask_app\models
+2025-10-28T19:40:13.919Z INFO [MainProvider] Creating new MainProvider instance...
+2025-10-28T19:40:13.920Z INFO Installation path exists: c:\Users\b3n3v\New folder\Student_Loan_Lottery\StudentLoanLottery\StudentLoanLotto\flask_app\models
+2025-10-28T19:40:13.920Z INFO Initializing database with URL: file:c:\Users\b3n3v\New folder\Student_Loan_Lottery\StudentLoanLottery\StudentLoanLotto\flask_app\models\pythagora-core\data\database\pythagora.db
+2025-10-28T19:40:13.924Z INFO New database detected, running full prisma setup...
+2025-10-28T19:40:13.924Z INFO [c:\Users\b3n3v\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24] Project root:
+2025-10-28T19:40:13.924Z INFO [c:\Users\b3n3v\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\prisma\schema.prisma] Schema path:
+2025-10-28T19:40:13.924Z INFO [file:c:\Users\b3n3v\New folder\Student_Loan_Lottery\StudentLoanLottery\StudentLoanLotto\flask_app\models\pythagora-core\data\database\pythagora.db] Database URL:
+2025-10-28T19:40:13.925Z INFO [true] Schema exists:
+2025-10-28T19:40:13.925Z INFO Running prisma generate first...
+2025-10-28T19:40:15.607Z INFO [Prisma schema loaded from prisma\schema.prisma
+
+✔ Generated Prisma Client (6.18.0) to .\src\generated\prisma in 188ms
+
+] Prisma generate result:
+2025-10-28T19:40:15.608Z INFO Running prisma db push to sync schema...
+2025-10-28T19:40:17.141Z INFO [Prisma schema loaded from prisma\schema.prisma
+Datasource "db": SQLite database "pythagora.db" at "file:c:\Users\b3n3v\New folder\Student_Loan_Lottery\StudentLoanLottery\StudentLoanLotto\flask_app\models\pythagora-core\data\database\pythagora.db"
+
+SQLite database pythagora.db created at file:c:\Users\b3n3v\New folder\Student_Loan_Lottery\StudentLoanLottery\StudentLoanLotto\flask_app\models\pythagora-core\data\database\pythagora.db
+
+Your database is now in sync with your Prisma schema. Done in 48ms
+
+Running generate... (Use --skip-generate to skip the generators)
+[2K[1A[2K[GRunning generate... - Prisma Client
+[2K[1A[2K[G✔ Generated Prisma Client (6.18.0) to .\src\generated\prisma in 159ms
+
+] Prisma db push result:
+2025-10-28T19:40:17.142Z INFO Database initialized successfully
+2025-10-28T19:40:17.142Z INFO [Migration] Checking for database migration...
+2025-10-28T19:40:17.204Z INFO [Migration] No migration needed
+2025-10-28T19:40:17.218Z INFO Starting right sidebar creation...
+2025-10-28T19:40:17.218Z INFO Initializing MainProvider...
+2025-10-28T19:40:17.219Z INFO Updating user profile...
+2025-10-28T19:40:17.219Z INFO No access token found when trying to fetch user profile
+2025-10-28T19:40:17.219Z INFO Creating right panel...
+2025-10-28T19:40:17.220Z INFO Creating right panel...
+2025-10-28T19:40:17.220Z INFO Closing all existing tabs...
+2025-10-28T19:40:17.235Z INFO Right panel webview created
+2025-10-28T19:40:17.236Z INFO Right panel HTML set successfully
+2025-10-28T19:40:17.237Z INFO Right panel setup completed
+2025-10-28T19:40:17.237Z INFO Setting up right panel dependencies...
+2025-10-28T19:40:17.251Z INFO Right panel dependencies setup complete, waiting for ready signal...
+2025-10-28T19:40:17.699Z INFO MainProvider handleMessage {"command":"rightPanelReady","data":{},"source":"right"}
+2025-10-28T19:40:17.700Z INFO Routing rightPanelReady through new unified router from right
+2025-10-28T19:40:17.701Z INFO [Message Router] Routing rightPanelReady through unified router
+2025-10-28T19:40:17.707Z INFO MainProvider handleMessage {"command":"getDeployments","data":"","route":"forwardToRight","source":"right"}
+2025-10-28T19:40:17.708Z INFO Routing getDeployments through new unified router from right
+2025-10-28T19:40:17.708Z INFO [Message Router] Routing getDeployments through unified router
+2025-10-28T19:40:17.713Z ERROR Error getting deployments:
+Error: Missing access token
+Stack: Error: Missing access token
+    at getDeployments (c:\Users\b3n3v\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\out\utils\deployments.js:254:15)
+    at getAndSendDeployments (c:\Users\b3n3v\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\out\routes\deployment.js:292:64)
+    at Object.handleGetDeployments [as getDeployments] (c:\Users\b3n3v\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\out\routes\deployment.js:67:15)
+    at handleMessage (c:\Users\b3n3v\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\out\routes\messageRouter.js:113:40)
+    at MainProvider.handleUnifiedMessage (c:\Users\b3n3v\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\out\providers\MainProvider.js:224:49)
+    at MainProvider.handleMessage (c:\Users\b3n3v\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\out\providers\MainProvider.js:717:24)
+    at Object.handleRightSidebarMessage (c:\Users\b3n3v\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\out\providers\MainProvider.js:67:56)
+    at od.value (c:\Users\b3n3v\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\out\managers\WebviewManager.js:209:46)
+    at $.C (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+    at $.D (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2443)
+    at $.fire (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2660)
+    at UV.$onMessage (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:92663)
+    at U4.S (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:120964)
+    at U4.Q (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:120744)
+    at U4.M (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:119833)
+    at U4.L (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:119071)
+    at od.value (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:117735)
+    at $.C (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+    at $.fire (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+    at Ao.fire (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9458)
+    at od.value (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:8616)
+    at $.C (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+    at $.fire (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+    at Ao.fire (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9458)
+    at MessagePortMain.<anonymous> (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:6908)
+    at MessagePortMain.emit (node:events:519:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+Extra context: {
+  "message": "Missing access token"
+}
+2025-10-28T19:40:17.722Z INFO MainProvider handleMessage {"command":"rightBarRendered","data":"","source":"right"}
+2025-10-28T19:40:17.723Z INFO Right panel setup completed successfully
+2025-10-28T19:40:17.723Z INFO Right panel created via MainProvider
+2025-10-28T19:40:17.723Z INFO Storing initial prompt...
+2025-10-28T19:40:17.723Z INFO Tracing first panel open...
+2025-10-28T19:40:17.724Z INFO MainProvider handleMessage {"command":"updateUserProfile","data":"","source":"right"}
+2025-10-28T19:40:17.724Z INFO Routing updateUserProfile through new unified router from right
+2025-10-28T19:40:17.724Z INFO [Message Router] Routing updateUserProfile through unified router
+2025-10-28T19:40:17.725Z INFO No access token found when trying to fetch user profile
+2025-10-28T19:40:52.965Z INFO Right sidebar setup completed successfully
+2025-10-28T19:40:52.969Z INFO Right sidebar already exists or is being created
+2025-10-28T19:40:53.930Z INFO MainProvider handleMessage {"command":"traceTelemetry","route":"forwardToRight","data":{"event":"email-signin-focus"},"source":"right"}
+2025-10-28T19:40:53.930Z INFO MainProvider handleMessage {"command":"traceTelemetry","data":{"event":"email-signin-focus"},"source":"right"}
+2025-10-28T19:40:53.948Z INFO [email-signin-focus] Tracing event:
+2025-10-28T19:40:55.280Z INFO MainProvider handleMessage {"command":"traceTelemetry","route":"forwardToRight","data":{"event":"email-signin-focus"},"source":"right"}
+2025-10-28T19:40:55.281Z INFO MainProvider handleMessage {"command":"traceTelemetry","data":{"event":"email-signin-focus"},"source":"right"}
+2025-10-28T19:41:16.932Z INFO MainProvider handleMessage {"command":"traceTelemetry","route":"forwardToRight","data":{"event":"password-signin-focus"},"source":"right"}
+2025-10-28T19:41:16.932Z INFO MainProvider handleMessage {"command":"traceTelemetry","data":{"event":"password-signin-focus"},"source":"right"}
+2025-10-28T19:41:16.934Z INFO [password-signin-focus] Tracing event:
+2025-10-28T19:41:22.001Z INFO MainProvider handleMessage {"command":"traceTelemetry","route":"forwardToRight","data":{"event":"continue-with-github-button-clicked"},"source":"right"}
+2025-10-28T19:41:22.002Z INFO MainProvider handleMessage {"command":"traceTelemetry","data":{"event":"continue-with-github-button-clicked"},"source":"right"}
+2025-10-28T19:41:22.003Z INFO MainProvider handleMessage {"command":"loginWithGithub","data":null,"source":"right"}
+2025-10-28T19:41:22.004Z INFO Routing loginWithGithub through new unified router from right
+2025-10-28T19:41:22.004Z INFO [Message Router] Routing loginWithGithub through unified router
+2025-10-28T19:41:22.009Z INFO [continue-with-github-button-clicked] Tracing event:
+2025-10-28T19:41:41.334Z INFO MainProvider handleMessage {"command":"traceTelemetry","route":"forwardToRight","data":{"event":"segmentation_page_loaded"},"source":"right"}
+2025-10-28T19:41:41.334Z INFO MainProvider handleMessage {"command":"traceTelemetry","data":{"event":"segmentation_page_loaded"},"source":"right"}
+2025-10-28T19:41:41.342Z INFO [segmentation_page_loaded] Tracing event:
+2025-10-28T19:41:45.893Z INFO MainProvider handleMessage {"command":"traceTelemetry","route":"forwardToRight","data":{"event":"describe-dropdown-clicked"},"source":"right"}
+2025-10-28T19:41:45.894Z INFO MainProvider handleMessage {"command":"traceTelemetry","data":{"event":"describe-dropdown-clicked"},"source":"right"}
+2025-10-28T19:41:45.905Z INFO [describe-dropdown-clicked] Tracing event:
+2025-10-28T19:41:49.995Z INFO MainProvider handleMessage {"command":"traceTelemetry","route":"forwardToRight","data":{"event":"usecase-dropdown-clicked"},"source":"right"}
+2025-10-28T19:41:49.996Z INFO MainProvider handleMessage {"command":"traceTelemetry","data":{"event":"usecase-dropdown-clicked"},"source":"right"}
+2025-10-28T19:41:50.009Z INFO [usecase-dropdown-clicked] Tracing event:
+2025-10-28T19:41:57.884Z INFO MainProvider handleMessage {"command":"traceTelemetry","route":"forwardToRight","data":{"event":"source-dropdown-clicked"},"source":"right"}
+2025-10-28T19:41:57.884Z INFO MainProvider handleMessage {"command":"traceTelemetry","data":{"event":"source-dropdown-clicked"},"source":"right"}
+2025-10-28T19:41:57.902Z INFO [source-dropdown-clicked] Tracing event:
+2025-10-28T19:42:02.093Z INFO MainProvider handleMessage {"command":"traceTelemetry","route":"forwardToRight","data":{"event":"source-dropdown-clicked"},"source":"right"}
+2025-10-28T19:42:02.093Z INFO MainProvider handleMessage {"command":"traceTelemetry","data":{"event":"source-dropdown-clicked"},"source":"right"}
+2025-10-28T19:42:06.547Z INFO MainProvider handleMessage {"command":"traceTelemetry","route":"forwardToRight","data":{"event":"backend-dropdown-clicked"},"source":"right"}
+2025-10-28T19:42:06.548Z INFO MainProvider handleMessage {"command":"traceTelemetry","data":{"event":"backend-dropdown-clicked"},"source":"right"}
+2025-10-28T19:42:06.563Z INFO [backend-dropdown-clicked] Tracing event:
+2025-10-28T19:42:08.206Z INFO MainProvider handleMessage {"command":"traceTelemetry","route":"forwardToRight","data":{"event":"segmentation_continue_button_clicked"},"source":"right"}
+2025-10-28T19:42:08.207Z INFO MainProvider handleMessage {"command":"traceTelemetry","data":{"event":"segmentation_continue_button_clicked"},"source":"right"}
+2025-10-28T19:42:08.208Z INFO MainProvider handleMessage {"command":"segment","data":{"category":"Junior developer","useCase":"Building my startup","alternative":"","source":"Google","hasOwnBackend":"Yes"},"source":"right"}
+2025-10-28T19:42:08.208Z INFO Routing segment through new unified router from right
+2025-10-28T19:42:08.209Z INFO [Message Router] Routing segment through unified router
+2025-10-28T19:42:08.213Z INFO MainProvider handleMessage {"command":"traceTelemetry","route":"forwardToRight","data":{"event":"continue-button-clicked"},"source":"right"}
+2025-10-28T19:42:08.214Z INFO MainProvider handleMessage {"command":"traceTelemetry","data":{"event":"continue-button-clicked"},"source":"right"}
+2025-10-28T19:42:08.216Z INFO [segmentation_continue_button_clicked] Tracing event:
+2025-10-28T19:42:08.217Z INFO [continue-button-clicked] Tracing event:
+2025-10-28T19:42:08.343Z INFO MainProvider handleMessage {"command":"getProjects","data":{},"source":"right"}
+2025-10-28T19:42:08.343Z INFO Routing getProjects through new unified router from right
+2025-10-28T19:42:08.344Z INFO [Message Router] Routing getProjects through unified router
+2025-10-28T19:42:08.348Z INFO MainProvider handleMessage {"command":"checkEnv","data":"","source":"right"}
+2025-10-28T19:42:08.513Z INFO Successfully posted projects to Pythagora API
+2025-10-28T19:42:17.010Z INFO MainProvider handleMessage {"command":"updateUserChoice","data":"cloud","source":"right"}
+2025-10-28T19:42:17.011Z INFO Routing updateUserChoice through new unified router from right
+2025-10-28T19:42:17.012Z INFO [Message Router] Routing updateUserChoice through unified router
+2025-10-28T19:42:17.013Z INFO MainProvider handleMessage {"command":"traceTelemetry","route":"forwardToRight","data":{"event":"cloud-button-clicked"},"source":"right"}
+2025-10-28T19:42:17.014Z INFO MainProvider handleMessage {"command":"traceTelemetry","data":{"event":"cloud-button-clicked"},"source":"right"}
+2025-10-28T19:42:17.015Z INFO MainProvider handleMessage {"command":"openUrlInBrowser","url":"https://pythagora.ai","source":"right"}
+2025-10-28T19:42:17.015Z INFO Routing openUrlInBrowser through new unified router from right
+2025-10-28T19:42:17.016Z INFO [Message Router] Routing openUrlInBrowser through unified router
+2025-10-28T19:42:17.029Z INFO [cloud-button-clicked] Tracing event:
+2025-10-28T19:43:57.767Z INFO Closing entire Pythagora extension...
+2025-10-28T19:43:57.768Z INFO Right panel disposed, triggering cleanup...
+2025-10-28T19:43:57.768Z INFO Right panel disposed, cleaning up...
+2025-10-28T19:43:57.775Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+    at new MR (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116391)
+    at U4.U (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121001)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:118495)
+    at iy.g (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:41101)
+    at iy.executeCommand (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:40605)
+    at Object.executeCommand (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:105071)
+    at closeEntirePythagoraExtension (c:\Users\b3n3v\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\out\extension.js:390:31)
+    at Object.deactivate (c:\Users\b3n3v\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\out\extension.js:295:15)
+    at SZ.eb (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11797)
+    at file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9947
+    at Array.map (<anonymous>)
+    at SZ.$ (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9935)
+    at SZ.terminate (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10178)
+    at H3.terminate (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:914)
+    at Ss (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:10409)
+    at MessagePortMain.<anonymous> (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:6948)
+    at MessagePortMain.emit (node:events:519:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+    at Object.callbackTrampoline (node:internal/async_hooks:130:17)
+Extra context: {
+  "message": "Canceled"
+}
+2025-10-28T19:44:42.446Z INFO SharedStateManager initialized
+2025-10-28T19:44:42.446Z INFO Is remote: false
+2025-10-28T19:44:42.447Z INFO Starting Local. Installation path: c:\Users\b3n3v\New folder\Student_Loan_Lottery\StudentLoanLottery\StudentLoanLotto\flask_app\models
+2025-10-28T19:44:42.447Z INFO [MainProvider] Creating new MainProvider instance...
+2025-10-28T19:44:42.448Z INFO Installation path exists: c:\Users\b3n3v\New folder\Student_Loan_Lottery\StudentLoanLottery\StudentLoanLotto\flask_app\models
+2025-10-28T19:44:42.449Z INFO Initializing database with URL: file:c:\Users\b3n3v\New folder\Student_Loan_Lottery\StudentLoanLottery\StudentLoanLotto\flask_app\models\pythagora-core\data\database\pythagora.db
+2025-10-28T19:44:42.451Z INFO Database file exists, skipping prisma generate/push for faster startup
+2025-10-28T19:44:42.451Z INFO Database initialized successfully
+2025-10-28T19:44:42.452Z INFO [Migration] Checking for database migration...
+2025-10-28T19:44:42.548Z INFO [Migration] No migration needed
+2025-10-28T19:44:42.577Z INFO Starting right sidebar creation...
+2025-10-28T19:44:42.577Z INFO Initializing MainProvider...
+2025-10-28T19:44:42.578Z INFO Updating user profile...
+2025-10-28T19:44:42.738Z INFO Creating right panel...
+2025-10-28T19:44:42.739Z INFO Creating right panel...
+2025-10-28T19:44:42.739Z INFO Closing all existing tabs...
+2025-10-28T19:44:42.750Z INFO Right panel webview created
+2025-10-28T19:44:42.751Z INFO Right panel HTML set successfully
+2025-10-28T19:44:42.752Z INFO Right panel setup completed
+2025-10-28T19:44:42.752Z INFO Setting up right panel dependencies...
+2025-10-28T19:44:42.763Z INFO Right panel dependencies setup complete, waiting for ready signal...
+2025-10-28T19:44:43.044Z INFO MainProvider handleMessage {"command":"rightPanelReady","data":{},"source":"right"}
+2025-10-28T19:44:43.044Z INFO Routing rightPanelReady through new unified router from right
+2025-10-28T19:44:43.045Z INFO [Message Router] Routing rightPanelReady through unified router
+2025-10-28T19:44:43.063Z INFO MainProvider handleMessage {"command":"getProjects","data":{},"source":"right"}
+2025-10-28T19:44:43.064Z INFO Routing getProjects through new unified router from right
+2025-10-28T19:44:43.064Z INFO [Message Router] Routing getProjects through unified router
+2025-10-28T19:44:43.067Z INFO MainProvider handleMessage {"command":"getDeployments","data":"","route":"forwardToRight","source":"right"}
+2025-10-28T19:44:43.067Z INFO Routing getDeployments through new unified router from right
+2025-10-28T19:44:43.067Z INFO [Message Router] Routing getDeployments through unified router
+2025-10-28T19:44:43.073Z INFO MainProvider handleMessage {"command":"rightBarRendered","data":"","source":"right"}
+2025-10-28T19:44:43.073Z INFO Right panel setup completed successfully
+2025-10-28T19:44:43.074Z INFO Right panel created via MainProvider
+2025-10-28T19:44:43.074Z INFO Storing initial prompt...
+2025-10-28T19:44:43.074Z INFO Tracing first panel open...
+2025-10-28T19:44:43.074Z INFO Right sidebar setup completed successfully
+2025-10-28T19:44:43.075Z INFO MainProvider handleMessage {"command":"updateUserProfile","data":"","source":"right"}
+2025-10-28T19:44:43.075Z INFO Routing updateUserProfile through new unified router from right
+2025-10-28T19:44:43.075Z INFO [Message Router] Routing updateUserProfile through unified router
+2025-10-28T19:44:43.081Z INFO MainProvider handleMessage {"command":"checkEnv","data":"","source":"right"}
+2025-10-28T19:44:43.212Z INFO Successfully posted projects to Pythagora API
+2025-10-28T19:44:45.938Z INFO MainProvider handleMessage {"command":"traceTelemetry","route":"forwardToRight","data":{"event":"local-button-clicked"},"source":"right"}
+2025-10-28T19:44:45.939Z INFO MainProvider handleMessage {"command":"traceTelemetry","data":{"event":"local-button-clicked"},"source":"right"}
+2025-10-28T19:44:45.939Z INFO MainProvider handleMessage {"command":"updateUserChoice","data":"local","source":"right"}
+2025-10-28T19:44:45.940Z INFO Routing updateUserChoice through new unified router from right
+2025-10-28T19:44:45.940Z INFO [Message Router] Routing updateUserChoice through unified router
+2025-10-28T19:44:45.952Z INFO [local-button-clicked] Tracing event:
+2025-10-28T19:46:41.748Z INFO MainProvider handleMessage {"command":"traceTelemetry","route":"forwardToRight","data":{"event":"new-app-started","source":"extension-main-input-field","prompt":"I am creating a web application that will collect user information and allow them to sign into their profile. The company will sell tickets online as entries into a weekly lottery draw. These tickets can be purchased individually or a user can subscribe to automatically get a set number of tickets per draw depending on the subscription they chose.","templateType":"web-app"},"source":"right"}
+2025-10-28T19:46:41.748Z INFO MainProvider handleMessage {"command":"traceTelemetry","data":{"event":"new-app-started","source":"extension-main-input-field","prompt":"I am creating a web application that will collect user information and allow them to sign into their profile. The company will sell tickets online as entries into a weekly lottery draw. These tickets can be purchased individually or a user can subscribe to automatically get a set number of tickets per draw depending on the subscription they chose.","templateType":"web-app"},"source":"right"}
+2025-10-28T19:46:41.749Z INFO MainProvider handleMessage {"command":"createProject","data":{"prompt":"I am creating a web application that will collect user information and allow them to sign into their profile. The company will sell tickets online as entries into a weekly lottery draw. These tickets can be purchased individually or a user can subscribe to automatically get a set number of tickets per draw depending on the subscription they chose.","templateType":"web-app"},"source":"right"}
+2025-10-28T19:46:41.749Z INFO Routing createProject through new unified router from right
+2025-10-28T19:46:41.749Z INFO [Message Router] Routing createProject through unified router
+2025-10-28T19:46:41.750Z INFO Generating project name from description using LLM
+2025-10-28T19:46:41.752Z INFO OpenAI client initialized with Pythagora access token
+2025-10-28T19:46:41.754Z INFO [new-app-started] Tracing event:
+2025-10-28T19:46:41.763Z INFO Found 0 existing project names
+2025-10-28T19:46:41.769Z INFO LLM request to openai (claude-haiku-4-5), attempt 1
+2025-10-28T19:46:41.780Z INFO MainProvider handleMessage {"command":"getLLMConfigs","source":"right"}
+2025-10-28T19:46:41.781Z INFO Routing getLLMConfigs through new unified router from right
+2025-10-28T19:46:41.781Z INFO [Message Router] Routing getLLMConfigs through unified router
+2025-10-28T19:46:41.782Z INFO [LLM Routes] Sent 4 user-selectable LLM configs to frontend
+2025-10-28T19:46:43.032Z INFO [openai] Client disposed
+2025-10-28T19:46:43.033Z INFO Generated project name: LuckyTicket
+2025-10-28T19:46:43.074Z INFO [ClaudeCode] Starting MCPListener as fallback...
+2025-10-28T19:46:43.075Z INFO ClaudeCode initialized without session ID
+2025-10-28T19:46:43.075Z INFO Creating new project immediately in database...
+2025-10-28T19:46:43.092Z INFO New project created in database: e0b749e0-a4c0-421e-a142-dcd745dd069e
+2025-10-28T19:46:43.093Z INFO Project initialization completed successfully
+2025-10-28T19:46:43.094Z INFO Generating project specification from user description
+2025-10-28T19:46:43.095Z INFO OpenAI client initialized with Pythagora access token
+2025-10-28T19:46:43.099Z INFO LLM request to openai (claude-sonnet-4-5), attempt 1
+2025-10-28T19:46:43.102Z INFO MainProvider handleMessage {"command":"getDeployments","data":"","route":"forwardToRight","source":"right"}
+2025-10-28T19:46:43.103Z INFO Routing getDeployments through new unified router from right
+2025-10-28T19:46:43.103Z INFO [Message Router] Routing getDeployments through unified router
+2025-10-28T19:46:51.844Z INFO MainProvider handleMessage {"command":"checkGitHubStatus","data":{"projectId":"e0b749e0-a4c0-421e-a142-dcd745dd069e"},"source":"right"}
+2025-10-28T19:46:51.844Z INFO Routing checkGitHubStatus through new unified router from right
+2025-10-28T19:46:51.845Z INFO [Message Router] Routing checkGitHubStatus through unified router
+2025-10-28T19:46:51.910Z INFO MainProvider handleMessage {"command":"getDeployments","data":{"route":"forwardToRight"},"source":"right"}
+2025-10-28T19:46:51.911Z INFO Routing getDeployments through new unified router from right
+2025-10-28T19:46:51.911Z INFO [Message Router] Routing getDeployments through unified router
+2025-10-28T19:46:52.144Z INFO MainProvider handleMessage {"command":"updateUserProfile","data":"","source":"right"}
+2025-10-28T19:46:52.145Z INFO Routing updateUserProfile through new unified router from right
+2025-10-28T19:46:52.145Z INFO [Message Router] Routing updateUserProfile through unified router
+2025-10-28T19:46:54.012Z INFO resplitScreen: Setting up editor layout...
+2025-10-28T19:46:54.012Z INFO resplitScreen: Current tab groups: 1
+2025-10-28T19:46:54.013Z INFO resplitScreen: Splitting editor to create 2 groups
+2025-10-28T19:46:54.139Z INFO resplitScreen: Focused second editor group
+2025-10-28T19:46:54.722Z INFO MainProvider handleMessage {"command":"centerBarReady","data":{},"source":"center"}
+2025-10-28T19:46:54.722Z INFO [centerBarReady] [MainProvider] Buffering message until center panel is ready
+2025-10-28T19:46:54.723Z INFO MainProvider handleMessage {"command":"ready","data":"ready","source":"center"}
+2025-10-28T19:46:54.723Z INFO Center panel message: {"command":"ready","data":"ready","source":"center"}
+2025-10-28T19:46:54.724Z INFO [MainProvider] Center panel ready - processing ready handler
+2025-10-28T19:46:54.724Z INFO [MainProvider] Center panel ready - flushing 38 buffered messages
+2025-10-28T19:46:54.727Z INFO [Message Router] Routing getProjectInfo through unified router
+2025-10-28T19:46:54.953Z INFO MainProvider handleMessage {"command":"getProjectSpecs","data":{"projectId":"e0b749e0-a4c0-421e-a142-dcd745dd069e"},"source":"center"}
+2025-10-28T19:46:54.954Z INFO Routing getProjectSpecs through new unified router from center
+2025-10-28T19:46:54.954Z INFO [Message Router] Routing getProjectSpecs through unified router
+2025-10-28T19:46:57.927Z INFO MainProvider handleMessage {"command":"getDeployments","data":{"route":"forwardToRight"},"source":"right"}
+2025-10-28T19:46:57.927Z INFO Routing getDeployments through new unified router from right
+2025-10-28T19:46:57.927Z INFO [Message Router] Routing getDeployments through unified router
+2025-10-28T19:46:59.792Z INFO MainProvider handleMessage {"command":"checkGitHubStatus","data":{"projectId":"e0b749e0-a4c0-421e-a142-dcd745dd069e"},"source":"right"}
+2025-10-28T19:46:59.793Z INFO Routing checkGitHubStatus through new unified router from right
+2025-10-28T19:46:59.793Z INFO [Message Router] Routing checkGitHubStatus through unified router
+2025-10-28T19:47:01.259Z INFO MainProvider handleMessage {"command":"checkGitHubStatus","data":{"projectId":"e0b749e0-a4c0-421e-a142-dcd745dd069e"},"source":"right"}
+2025-10-28T19:47:01.260Z INFO Routing checkGitHubStatus through new unified router from right
+2025-10-28T19:47:01.260Z INFO [Message Router] Routing checkGitHubStatus through unified router
+2025-10-28T19:47:01.310Z INFO MainProvider handleMessage {"command":"getDeployments","data":{"route":"forwardToRight"},"source":"right"}
+2025-10-28T19:47:01.311Z INFO Routing getDeployments through new unified router from right
+2025-10-28T19:47:01.311Z INFO [Message Router] Routing getDeployments through unified router
+2025-10-28T19:47:02.226Z INFO MainProvider handleMessage {"command":"updateUserProfile","data":"","source":"right"}
+2025-10-28T19:47:02.227Z INFO Routing updateUserProfile through new unified router from right
+2025-10-28T19:47:02.227Z INFO [Message Router] Routing updateUserProfile through unified router
+2025-10-28T19:47:02.478Z INFO MainProvider handleMessage {"command":"updateUserProfile","data":"","source":"right"}
+2025-10-28T19:47:02.479Z INFO Routing updateUserProfile through new unified router from right
+2025-10-28T19:47:02.479Z INFO [Message Router] Routing updateUserProfile through unified router
+2025-10-28T19:47:11.875Z INFO MainProvider handleMessage {"command":"checkGitHubStatus","data":{"projectId":"e0b749e0-a4c0-421e-a142-dcd745dd069e"},"source":"right"}
+2025-10-28T19:47:11.876Z INFO Routing checkGitHubStatus through new unified router from right
+2025-10-28T19:47:11.876Z INFO [Message Router] Routing checkGitHubStatus through unified router
+2025-10-28T19:47:12.576Z INFO MainProvider handleMessage {"command":"getDeployments","data":{"route":"forwardToRight"},"source":"right"}
+2025-10-28T19:47:12.577Z INFO Routing getDeployments through new unified router from right
+2025-10-28T19:47:12.578Z INFO [Message Router] Routing getDeployments through unified router
+2025-10-28T19:47:13.360Z INFO MainProvider handleMessage {"command":"updateUserProfile","data":"","source":"right"}
+2025-10-28T19:47:13.361Z INFO Routing updateUserProfile through new unified router from right
+2025-10-28T19:47:13.361Z INFO [Message Router] Routing updateUserProfile through unified router
+2025-10-28T19:47:43.658Z INFO MainProvider handleMessage {"command":"updateUserProfile","data":"","source":"right"}
+2025-10-28T19:47:43.659Z INFO Routing updateUserProfile through new unified router from right
+2025-10-28T19:47:43.659Z INFO [Message Router] Routing updateUserProfile through unified router
+2025-10-28T19:48:11.094Z INFO [openai] Client disposed
+2025-10-28T19:48:11.095Z INFO OpenAI client initialized with Pythagora access token
+2025-10-28T19:48:11.100Z INFO LLM request to openai (claude-sonnet-4-5), attempt 1
+2025-10-28T19:48:13.909Z INFO [openai] Client disposed
+2025-10-28T19:48:13.909Z INFO Creating new specification version in database...
+2025-10-28T19:48:13.917Z INFO New specification version created in database: 1
+2025-10-28T19:48:13.917Z INFO Specification saved to database successfully
+2025-10-28T19:48:13.918Z INFO Creating epic, task, and task state immediately in database...
+2025-10-28T19:48:13.922Z INFO New epic created in database: 0e615e20-4f4b-47e2-8992-5858e37302f3
+2025-10-28T19:48:13.930Z INFO New task created in database: 5d9bb768-28b8-41da-a48f-7a17e74d2773
+2025-10-28T19:48:13.933Z INFO New task state created in database: 23fcd14e-36e9-4536-8468-859206a24f85
+2025-10-28T19:48:13.933Z INFO Epic, task, and task state creation completed successfully
+2025-10-28T19:48:13.934Z INFO Project specification generated successfully
+2025-10-28T19:48:13.935Z INFO Creating new project_state in database...
+2025-10-28T19:48:13.941Z INFO New project state created in database: 3c6faf49-6111-4674-bf39-79ed369da956 (step 1)
+2025-10-28T19:48:13.942Z INFO Project state successfully created
+2025-10-28T19:48:13.942Z INFO MainProvider handleMessage {"route":"forwardToCenter","command":"allowSpecsEdit"}
+2025-10-28T19:48:13.943Z INFO Center panel message: {"command":"allowSpecsEdit"}
+2025-10-28T19:54:28.591Z INFO MainProvider handleMessage {"command":"updateUserProfile","data":"","source":"right"}
+2025-10-28T19:54:28.592Z INFO Routing updateUserProfile through new unified router from right
+2025-10-28T19:54:28.593Z INFO [Message Router] Routing updateUserProfile through unified router
+2025-10-28T20:06:54.765Z INFO SharedStateManager initialized
+2025-10-28T20:06:54.766Z INFO Is remote: false
+2025-10-28T20:06:54.767Z INFO Starting Local. Installation path: c:\Users\b3n3v\New folder\Student_Loan_Lottery\StudentLoanLottery\StudentLoanLotto\flask_app\models
+2025-10-28T20:06:54.767Z INFO [MainProvider] Creating new MainProvider instance...
+2025-10-28T20:06:54.768Z INFO Installation path exists: c:\Users\b3n3v\New folder\Student_Loan_Lottery\StudentLoanLottery\StudentLoanLotto\flask_app\models
+2025-10-28T20:06:54.769Z INFO Initializing database with URL: file:c:\Users\b3n3v\New folder\Student_Loan_Lottery\StudentLoanLottery\StudentLoanLotto\flask_app\models\pythagora-core\data\database\pythagora.db
+2025-10-28T20:06:54.773Z INFO Database file exists, skipping prisma generate/push for faster startup
+2025-10-28T20:06:54.773Z INFO Database initialized successfully
+2025-10-28T20:06:54.775Z INFO [Migration] Checking for database migration...
+2025-10-28T20:06:54.876Z INFO [Migration] No migration needed
+2025-10-28T20:06:54.930Z INFO Starting right sidebar creation...
+2025-10-28T20:06:54.931Z INFO Initializing MainProvider...
+2025-10-28T20:06:54.931Z INFO Updating user profile...
+2025-10-28T20:06:55.445Z INFO Creating right panel...
+2025-10-28T20:06:55.446Z INFO Creating right panel...
+2025-10-28T20:06:55.446Z INFO Closing all existing tabs...
+2025-10-28T20:06:55.461Z INFO Right panel webview created
+2025-10-28T20:06:55.462Z INFO Right panel HTML set successfully
+2025-10-28T20:06:55.463Z INFO Right panel setup completed
+2025-10-28T20:06:55.463Z INFO Setting up right panel dependencies...
+2025-10-28T20:06:55.478Z INFO Right panel dependencies setup complete, waiting for ready signal...
+2025-10-28T20:06:55.858Z INFO MainProvider handleMessage {"command":"rightPanelReady","data":{},"source":"right"}
+2025-10-28T20:06:55.859Z INFO Routing rightPanelReady through new unified router from right
+2025-10-28T20:06:55.859Z INFO [Message Router] Routing rightPanelReady through unified router
+2025-10-28T20:06:55.866Z INFO MainProvider handleMessage {"command":"getProjects","data":{},"source":"right"}
+2025-10-28T20:06:55.867Z INFO Routing getProjects through new unified router from right
+2025-10-28T20:06:55.867Z INFO [Message Router] Routing getProjects through unified router
+2025-10-28T20:06:55.869Z INFO MainProvider handleMessage {"command":"getDeployments","data":"","route":"forwardToRight","source":"right"}
+2025-10-28T20:06:55.870Z INFO Routing getDeployments through new unified router from right
+2025-10-28T20:06:55.870Z INFO [Message Router] Routing getDeployments through unified router
+2025-10-28T20:06:55.875Z INFO MainProvider handleMessage {"command":"rightBarRendered","data":"","source":"right"}
+2025-10-28T20:06:55.876Z INFO Right panel setup completed successfully
+2025-10-28T20:06:55.876Z INFO Right panel created via MainProvider
+2025-10-28T20:06:55.877Z INFO Storing initial prompt...
+2025-10-28T20:06:55.877Z INFO Tracing first panel open...
+2025-10-28T20:06:55.877Z INFO Right sidebar setup completed successfully
+2025-10-28T20:06:55.878Z INFO MainProvider handleMessage {"command":"updateUserProfile","data":"","source":"right"}
+2025-10-28T20:06:55.878Z INFO Routing updateUserProfile through new unified router from right
+2025-10-28T20:06:55.879Z INFO [Message Router] Routing updateUserProfile through unified router
+2025-10-28T20:06:55.884Z INFO MainProvider handleMessage {"command":"checkEnv","data":"","source":"right"}
+2025-10-28T20:06:56.037Z INFO Successfully posted projects to Pythagora API
+2025-10-28T20:09:37.848Z INFO Closing entire Pythagora extension...
+2025-10-28T20:09:37.849Z INFO Right panel disposed, triggering cleanup...
+2025-10-28T20:09:37.849Z INFO Right panel disposed, cleaning up...
+2025-10-28T20:09:37.857Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+    at new MR (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116391)
+    at U4.U (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121001)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:118495)
+    at iy.g (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:41101)
+    at iy.executeCommand (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:40605)
+    at Object.executeCommand (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:105071)
+    at closeEntirePythagoraExtension (c:\Users\b3n3v\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\out\extension.js:390:31)
+    at Object.deactivate (c:\Users\b3n3v\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\out\extension.js:295:15)
+    at SZ.eb (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11797)
+    at file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9947
+    at Array.map (<anonymous>)
+    at SZ.$ (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9935)
+    at SZ.terminate (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10178)
+    at H3.terminate (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:914)
+    at Ss (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:10409)
+    at MessagePortMain.<anonymous> (file:///c:/Users/b3n3v/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:6948)
+    at MessagePortMain.emit (node:events:519:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+Extra context: {
+  "message": "Canceled"
+}

@@ -1,0 +1,44 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5050
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 431-348-781
+INFO:werkzeug:127.0.0.1 - - [22/Oct/2024 21:45:27] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Oct/2024 21:45:45] "GET /draw HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Oct/2024 21:45:52] "[32mPOST /randomtocart HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [22/Oct/2024 21:45:52] "GET /cart HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Oct/2024 21:45:54] "[32mPOST /addTicket HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [22/Oct/2024 21:45:54] "GET /cart HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Oct/2024 21:47:04] "[32mPOST /purchaseTicket HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [22/Oct/2024 21:47:04] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Oct/2024 21:49:38] "GET /draw HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Oct/2024 21:49:40] "[32mPOST /randomtocart HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [22/Oct/2024 21:49:40] "GET /cart HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Oct/2024 21:49:41] "[32mPOST /addTicket HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [22/Oct/2024 21:49:41] "GET /cart HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Oct/2024 21:49:42] "[32mPOST /purchaseTicket HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [22/Oct/2024 21:49:42] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Oct/2024 21:49:52] "[35m[1mGET /admindashboard HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [22/Oct/2024 21:49:53] "[36mGET /admindashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Oct/2024 21:49:53] "[36mGET /admindashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Oct/2024 21:49:53] "[36mGET /admindashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Oct/2024 21:49:53] "[36mGET /admindashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\b3n3v\\StudentLoanLottery1\\StudentLoanLottery\\studentloanlotto\\flask_app\\controllers\\adminDashboard.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 431-348-781
+INFO:werkzeug: * Detected change in 'C:\\Users\\b3n3v\\StudentLoanLottery1\\StudentLoanLottery\\studentloanlotto\\flask_app\\controllers\\adminDashboard.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 431-348-781
+INFO:werkzeug: * Detected change in 'C:\\Users\\b3n3v\\StudentLoanLottery1\\StudentLoanLottery\\studentloanlotto\\flask_app\\controllers\\adminDashboard.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 431-348-781
+INFO:werkzeug:127.0.0.1 - - [22/Oct/2024 21:50:10] "GET /admindashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Oct/2024 21:50:10] "[36mGET /static/css/adminDashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Oct/2024 21:51:10] "GET /admindashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Oct/2024 21:51:10] "[36mGET /static/css/adminDashboard.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\b3n3v\\StudentLoanLottery1\\StudentLoanLottery\\studentloanlotto\\flask_app\\controllers\\adminDashboard.py', reloading
+INFO:werkzeug: * Restarting with stat
